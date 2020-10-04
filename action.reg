@@ -1,0 +1,8 @@
+Windows Registry Editor Version 5.00
+
+[HKEY_CLASSES_ROOT\Directory\Background\shell\marcos_actions]
+@="Executar ações MARCOS aqui..."
+"Icon"="C:\\Program Files\\marcos_actions\\organize.png"
+
+[HKEY_CLASSES_ROOT\Directory\Background\shell\marcos_actions\command]
+@="\"C:\\Program Files\\marcos_actions\\actions.exe\"\"%v.\""
